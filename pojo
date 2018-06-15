@@ -1,0 +1,42 @@
+package com.hpe.online.pojo;
+
+public class Admin {
+	/**
+	 * 绠＄悊鍛榠d
+	 */
+	private int aid;
+	private String apwd;
+	private String aname;	
+	private String aphone;
+	
+	public String getAname() {
+		return aname;
+	}
+	public void setAname(String aname) {
+		this.aname = aname;
+	}
+	public String getAphone() {
+		return aphone;
+	}
+	public void setAphone(String aphone) {
+		this.aphone = aphone;
+	}
+	public int getAid() {
+		return aid;
+	}
+	public void setAid(int aid) {
+		this.aid = aid;
+	}
+	public String getApwd() {
+		return apwd;
+	}
+	public void setApwd(String apwd) {
+		this.apwd = apwd;
+	}
+	@Override
+	public String toString() {
+		return "Admin [aid=" + aid + ", apwd=" + apwd + ", aname=" + aname + ", aphone=" + aphone + "]";
+	}
+	
+	
+}
