@@ -2,6 +2,7 @@ package com.hpe.online.dao;
 
 import com.hpe.online.pojo.Admin;
 import java.util.*;
+import java.lang.*;
 public interface IAdminDao {
 	Admin select(String username, String password);
 }
